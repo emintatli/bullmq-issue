@@ -1,0 +1,30 @@
+{
+  "name": "g",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@bull-board/api": "^6.5.2",
+    "@bull-board/express": "^6.5.2",
+    "axios": "^1.7.7",
+    "bullmq": "^5.26.2",
+    "cheerio": "^1.0.0",
+    "express": "^4.21.1",
+    "fingerprint-generator": "^2.1.57",
+    "fingerprint-injector": "^2.1.57",
+    "header-generator": "^2.1.57",
+    "https-proxy-agent": "^7.0.5",
+    "node-fetch": "^2.7.0",
+    "p-limit": "^6.1.0",
+    "random-words": "^2.0.1"
+  }
+}
